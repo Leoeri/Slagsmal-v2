@@ -15,7 +15,7 @@ namespace Slagsmal
             string name = Console.ReadLine();
             System.Console.WriteLine("Do you want to play:");
             System.Console.WriteLine("1. Single fight");
-            System.Console.WriteLine("2. Tournament(WIP)");
+            System.Console.WriteLine("2. Tournament");
             string answear = Console.ReadLine();
             int WhatOpponent = generator.Next();
             string opponent = opponents();
